@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url('./img/prueba.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.login{
+    background: transparent;
+    padding: 2%;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.login-head img{
+    border-radius: 20px;
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.login-body form{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.login-body input{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.662);
+    margin-top: 5%;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+}
+.login-body button{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.759);
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #D5D8DC;
+}
+
+@media (width < 1100px){
+    body {
+        background-image: url(./img/prueba2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+}
